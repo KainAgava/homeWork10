@@ -16,8 +16,8 @@ namespace homeWork2._4
             static void Main(string[] args)
             {
                 int number;
-                int randomNumberMin = 1000;
-                int randomNumberMax = 100000;
+                int randomNumberMin = 0;
+                int randomNumberMax = 100;
 
                 Random random = new Random();
                 number = random.Next(randomNumberMin, randomNumberMax);
